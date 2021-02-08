@@ -1,4 +1,4 @@
-## Common leaks to be aware of
+## Memory Leaks on Android
 
 These are some of the common leaks to be careful about.
 
