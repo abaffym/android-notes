@@ -1,6 +1,7 @@
 ## Memory Leaks on Android
 
 These are some of the common leaks to be careful about.
+Using [LeakCanary](https://square.github.io/leakcanary/) is strongly recommended!
 
 ### 1. View references in Fragment
 
@@ -66,10 +67,4 @@ override fun onDestroyView() {
 
 ## Resources
 
-Make sure to use **LeakCanary**!
-
-[LeakCanary](https://square.github.io/leakcanary/)
-
-Live tracking memory leaks by [Py](https://twitter.com/Piwai)
-
-[Ask the Expert #2: LeakCanary 2.x is out, track your memory leaks](https://www.youtube.com/watch?v=Sx0k4ipqwBs&feature=emb_title)
+Live tracking memory leaks: [Ask the Expert #2: LeakCanary 2.x is out, track your memory leaks](https://www.youtube.com/watch?v=Sx0k4ipqwBs&feature=emb_title)
