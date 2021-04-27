@@ -62,7 +62,7 @@ override fun onDestroyView() {
 
 Note: The second approach does not clean the `AdapterDataObserver` so you have to do it manually!
 
-### 3. ViewPager Adapter references in Fragment
+### 3. ViewPager2 Adapter references in Fragment
 `ViewPager2` is internally implemented as a `RecyclerView` so the same rules as in point 2 apply.
 
 ## Resources
